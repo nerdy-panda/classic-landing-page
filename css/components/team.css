@@ -1,0 +1,32 @@
+#team {
+}
+#team .container {
+    padding-top: 80px ;
+    padding-bottom: 30px ;
+}
+.team-item {
+    float: right;
+    width: 30% ;
+    margin-left: 4.995% ;
+    text-align: center ;
+}
+.team-item:nth-child(3n) {
+    margin-left: unset ;
+}
+.team-item p {
+    line-height: 30px ;
+}
+.team-item img {
+    width: 256px ;
+    height: 256px ;
+    border-radius: 100% ;
+    border: 4px solid #eee;
+    opacity: 0.8;
+    transition-property: opacity , border-color;
+    transition-duration: 150ms ;
+    transition-timing-function: ease-in ;
+}
+.team-item:hover img {
+    opacity: 1 ;
+    border-color: #ccc ;
+}

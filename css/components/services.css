@@ -1,0 +1,54 @@
+#services {
+    background-color: var(--silver-color);
+}
+#services .container {
+    padding-top: 60px;
+}
+.service-item>figure {
+    margin: unset ;
+}
+.service-item-thumbnial-container {
+    width: 49% ;
+}
+.service-item-thumbnial-container img {
+    max-width: 100% ;
+}
+.service-item-describe-container {
+    width: 49% ;
+}
+.service-item-describe-container h3 {
+    font-size: 30px ;
+    margin-top: unset ;
+    
+}
+.service-item-describe-container p {
+    line-height: 30px ;
+    text-indent: 20px ;
+    text-align: justify ;
+}
+.service-item:first-child .service-item-thumbnial-container {
+    float: right ;
+}
+.service-item:first-child .service-item-describe-container {
+    float: left ;
+    margin-top: 100px ;
+}
+
+.service-item:last-child .service-item-thumbnial-container {
+    float: left ;
+    text-align: left ;
+}
+.service-item:last-child .service-item-thumbnial-container img {
+    position: relative ;
+    top: 6px ;
+}
+.service-item:last-child .service-item-describe-container {
+    float: right ;
+    margin-top: 180px ;
+}
+.service-item:last-child #button-container {
+    text-align: center ;
+}
+.service-item:last-child #button-container .button:first-child {
+    margin-left: 50px ;
+}

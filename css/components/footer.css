@@ -1,0 +1,10 @@
+#page-footer {
+    background-color: #ecf0f1 ;
+    padding: 20px 0;
+}
+#page-footer p {
+    margin: unset ;
+    font-size: 18px ;
+    text-align: center ;
+    color : #516a77 ;
+}

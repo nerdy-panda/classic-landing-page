@@ -1,0 +1,95 @@
+#contact-us {
+    background-image: url("../../img/bg3.png");
+}
+#contact-us .container {
+    padding: 80px 0;
+}
+.contact-us-column {
+    width: 49% ;
+}
+.contact-us-column h3 {
+    font-size: 20px ;
+    text-align: center ;
+}
+#contact-info {
+    float: right ;
+}
+#map-container {
+    height: 300px ;
+}
+#contact-info p {
+    margin: 22px 0 ;
+}
+#contact-info p:last-of-type {
+    margin-bottom: unset ;
+}
+#contact-info p b {
+    color : #7e692a ;
+}
+#map-container iframe {
+    width: 100% ;
+    height: 100% ;
+    border: unset ;
+}
+#contact-form-container {
+    float: left ;
+}
+#contact-form-container input , 
+#contact-form-container textarea   {
+    display: block ;
+    width: 100% ;
+    box-sizing: border-box ;
+    padding: 15px  ;
+    margin-bottom: 20px ;
+    border: 2px solid #ddd ;
+    border-radius: 1px ;
+    color: #616161 ;
+
+}
+#contact-form-container input::placeholder ,
+ #contact-form-container textarea::placeholder {
+     font-size: 20px ;
+    color: #787878 ;
+}
+#contact-form-container input:focus ,
+#contact-form-container textarea:focus  {
+    outline: unset ;
+}
+#contact-form-container textarea {
+    height: 170px ;
+    resize: none;
+}
+#contact-form-button-container {
+    text-align: center ;
+}
+#contact-form-button-container button:first-child {
+    margin-left: 20px;
+}
+#social {
+    margin-top: 50px ;
+    text-align: center ;
+}
+#social h4 {
+    margin-top: unset ;
+    margin-bottom: 28px ;
+}
+#social ul {
+    padding: unset ;
+    margin: unset ;
+    list-style: none ;
+    direction: ltr ;
+}
+#social ul li {
+    display: inline-block ;
+    margin-right: 10px ;
+}
+#social ul li a {
+    display: inline-block;
+}
+#social ul li a img {
+    border-radius: 4px;
+    transition: opacity 72ms ease-in;
+}
+#social ul li:hover a img {
+    opacity: 0.6;
+}

@@ -1,0 +1,32 @@
+#about-us {
+}
+#about-us .container {
+    text-align: center ;
+}
+.about-us-item {
+    float: right;
+    width: 30% ;
+    margin-left: 4.995% ;
+    margin-bottom: 25px ;
+}
+.about-us-item:nth-child(3n){
+    margin-left: unset ;
+}
+.about-us-item img {
+    transition-property: opacity , animation-name;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+    opacity: 0.8;
+}
+.about-us-item:hover img {
+    opacity: 1 ;
+    animation-name: bounce;
+    animation-duration: 1s ;
+}
+.about-us-item p {
+    color : #3e4245;
+    padding : 0 20px ;
+    margin-bottom: unset ;
+    line-height: 32px ;
+    
+}
